@@ -31,18 +31,18 @@ Before running the Chinook Music App, you need the following:
 2. Open the solution in Visual Studio or your preferred .NET IDE.
 
 3. Configure the database connection string in the CustomerRepositoryImpl constructor to point to your SQL Server instance and the Chinook database:
-```_connectionString = <b>"Server=your-server-name;</b> Database=Chinook;Integrated Security=True;";```
+<br>```_connectionString = "Server=your-server-name; Database=Chinook;Integrated Security=True;";```
 
-Build and run the application.
+4. Build and run the application.
 
 ### Usage
 <b>Customer Management</b>
-Use the application to view, add, update, and delete customer records.
+Use the application to view, add, update, and delete customer records.<br>
 <b>Customer Queries</b>
-Perform various queries on customer data, such as retrieving customer information by ID, name, and country.
+Perform various queries on customer data, such as retrieving customer information by ID, name, and country.<br>
 <b>Statistics</b>
-Retrieve statistics about customer data, including the number of customers in each country and the highest-spending customers.
+Retrieve statistics about customer data, including the number of customers in each country and the highest-spending customers.<br>
 <b>Genre Analysis</b>
-Find the most popular music genres among customers and identify customers with the same most popular genres.
+Find the most popular music genres among customers and identify customers with the same most popular genres.<br>
 <b>Contributing</b>
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
