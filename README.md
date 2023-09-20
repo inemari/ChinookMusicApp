@@ -36,13 +36,15 @@ Before running the Chinook Music App, you need the following:
 4. Build and run the application.
 
 ### Usage
-<b>Customer Management</b>
+#### Customer Management
 Use the application to view, add, update, and delete customer records.<br>
-<b>Customer Queries</b>
+#### Customer Queries
 Perform various queries on customer data, such as retrieving customer information by ID, name, and country.<br>
-<b>Statistics</b>
+#### Statistics
 Retrieve statistics about customer data, including the number of customers in each country and the highest-spending customers.<br>
-<b>Genre Analysis</b>
+#### Genre Analysis
 Find the most popular music genres among customers and identify customers with the same most popular genres.<br>
-<b>Contributing</b>
-Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+
+### Contributers
+- [Noah Høgstøl](https://github.com/Nuuah)<br>
+- [Ine Mari Bredesen](https://github.com/inemari)
