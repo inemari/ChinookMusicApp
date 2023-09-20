@@ -27,36 +27,22 @@ Before running the Chinook Music App, you need the following:
 ### Installation
 
 1. Clone this repository to your local machine:
+   ```git clone https://github.com/yourusername/chinook-music-app.git```
+2. Open the solution in Visual Studio or your preferred .NET IDE.
 
-   ```shell
-   git clone https://github.com/yourusername/chinook-music-app.git
-Open the solution in Visual Studio or your preferred .NET IDE.
-
-Configure the database connection string in the CustomerRepositoryImpl constructor to point to your SQL Server instance and the Chinook database:
-
-Copy code
-_connectionString = '''"Server=your-server-name;'''Database=Chinook;Integrated Security=True;";
+3. Configure the database connection string in the CustomerRepositoryImpl constructor to point to your SQL Server instance and the Chinook database:
+```_connectionString = <b>"Server=your-server-name;</b> Database=Chinook;Integrated Security=True;";```
 
 Build and run the application.
 
-Usage
-Customer Management
+### Usage
+<b>Customer Management</b>
 Use the application to view, add, update, and delete customer records.
-Customer Queries
+<b>Customer Queries</b>
 Perform various queries on customer data, such as retrieving customer information by ID, name, and country.
-Statistics
+<b>Statistics</b>
 Retrieve statistics about customer data, including the number of customers in each country and the highest-spending customers.
-Genre Analysis
+<b>Genre Analysis</b>
 Find the most popular music genres among customers and identify customers with the same most popular genres.
-Contributing
+<b>Contributing</b>
 Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Acknowledgments
-The Chinook database used in this project is provided by Chinook Database under the MIT License.
-rust
-Copy code
-
-You can replace the placeholders (e.g., "version X.X.X," "yourusername," "your-server-name") with the appropriate information for your project. Feel free to add more sections or details as needed for your project's README.
