@@ -18,15 +18,15 @@ The Chinook Music App is a .NET application that provides functionality for mana
 
 Before running the Chinook Music App, you need the following:
 
-- .NET SDK (version X.X.X): You can download it from [dotnet.microsoft.com](https://dotnet.microsoft.com/download/dotnet).
+- .NET SDK (version X.X.X): You can download it from<br> [dotnet.microsoft.com](https://dotnet.microsoft.com/download/dotnet).
 
-- SQL Server Management Studio: You can download it from [docs.microsoft.com](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
+- SQL Server Management Studio: You can download it from <br>[docs.microsoft.com](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms).
 
-- Chinook Database: The application assumes that you have the Chinook database set up in your SQL Server instance. You can download the database script from [github.com/lerocha/chinook-database](https://github.com/lerocha/chinook-database).
+- Chinook Database: The application assumes that you have the Chinook database set up in your SQL Server instance. You can download the database script from<br> [github.com/lerocha/chinook-database](https://github.com/lerocha/chinook-database).
 
 ### Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine:<br>
    ```git clone https://github.com/yourusername/chinook-music-app.git```
 2. Open the solution in Visual Studio or your preferred .NET IDE.
 
