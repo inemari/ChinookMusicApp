@@ -32,15 +32,11 @@ Before running the Chinook Music App, you need the following:
    git clone https://github.com/yourusername/chinook-music-app.git
 Open the solution in Visual Studio or your preferred .NET IDE.
 
-Configure the database connection string in the appsettings.json file to point to your SQL Server instance and the Chinook database:
+Configure the database connection string in the CustomerRepositoryImpl constructor to point to your SQL Server instance and the Chinook database:
 
-json
 Copy code
-{
-  "ConnectionStrings": {
-    "ChinookConnection": "Server=your-server-name;Database=Chinook;Integrated Security=True;"
-  }
-}
+_connectionString = '''"Server=your-server-name;'''Database=Chinook;Integrated Security=True;";
+
 Build and run the application.
 
 Usage
