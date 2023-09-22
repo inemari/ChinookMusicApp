@@ -24,6 +24,16 @@ Before running the Chinook Music App, you need the following:
 
 - Chinook Database: The application assumes that you have the Chinook database set up in your SQL Server instance. You can download the database script from<br> [github.com/lerocha/chinook-database](https://github.com/lerocha/chinook-database).
 
+- Database setup:
+
+  1. Create a database named SuperheroesDb using SQL Server Management Studio. You can use the script in 01_dbCreate.sql for this purpose.<br>
+
+  2. Create the necessary tables for the Superheroes database using the script in 02_tableCreate.sql.<br>
+
+  3. Set up the relationships between tables as described in 03_relationshipSuperheroAssistant.sql and 04_relationshipSuperheroPower.sql.<br>
+
+  4. Insert data into the database using the provided scripts: 05_insertSuperheroes.sql, 06_insertAssistants.sql, 07_powers.sql, 08_updateSuperhero.sql, and 09_deleteAssistant.sql
+
 ### Installation
 
 1. Clone this repository to your local machine:<br>
@@ -46,5 +56,5 @@ Retrieve statistics about customer data, including the number of customers in ea
 Find the most popular music genres among customers and identify customers with the same most popular genres.<br>
 
 ### Contributers
-- [Noah Høgstøl](https://github.com/Nuuah)<br>
+- [Noah HÃ¸gstÃ¸l](https://github.com/Nuuah)<br>
 - [Ine Mari Bredesen](https://github.com/inemari)
