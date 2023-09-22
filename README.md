@@ -27,7 +27,7 @@ Before running the Chinook Music App, you need the following:
 - Database setup:
 
 <ol>
-  <li>Create a database named SuperheroesDb using SQL Server Management Studio. You can use the script in 01_dbCreate.sql for this purpose.</li>
+  <li>Create a database named SuperheroesDb using <b>SQL Server Management Studio</b>. You can use the script in 01_dbCreate.sql for this purpose.</li>
   <li>Create the necessary tables for the Superheroes database using the script in 02_tableCreate.sql.</li>
   <li>Set up the relationships between tables as described in 03_relationshipSuperheroAssistant.sql and 04_relationshipSuperheroPower.sql.</li>
   <li>Insert data into the database using the provided scripts:
