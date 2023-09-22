@@ -1,4 +1,4 @@
-# Chinook Music App
+# Chinook Music App and Superhero database
 
 The Chinook Music App is a .NET application that provides functionality for managing a music store's customer data and performing various queries on the Chinook database.
 
