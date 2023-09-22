@@ -47,7 +47,7 @@ Retrieve statistics about customer data, including the number of customers in ea
 #### Genre Analysis
 Find the most popular music genres among customers and identify customers with the same most popular genres.<br>
 
-###Database setup:
+##Database setup:
 
 <ol>
   <li>Create a database named SuperheroesDb using <b>SQL Server Management Studio</b>. You can use the script in 01_dbCreate.sql for this purpose.</li>
