@@ -31,7 +31,7 @@ Before running the Chinook Music App, you need the following:
   <li>Create the necessary tables for the Superheroes database using the script in 02_tableCreate.sql.</li>
   <li>Set up the relationships between tables as described in 03_relationshipSuperheroAssistant.sql and 04_relationshipSuperheroPower.sql.</li>
   <li>Insert data into the database using the provided scripts:
-    <ol>
+    <ol type="1">
       <li>05_insertSuperheroes.sql to insert superheroes.</li>
       <li>06_insertAssistants.sql to insert assistant data.</li>
       <li>07_powers.sql to insert powers and associate them with superheroes.</li>
@@ -40,7 +40,6 @@ Before running the Chinook Music App, you need the following:
     </ol>
   </li>
 </ol>
-
 
 ### Installation
 
